@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 446157358
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mod.bundle
+      Dependencies: {}
