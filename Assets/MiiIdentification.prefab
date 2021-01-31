@@ -499,7 +499,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4646226404552822}
-  - component: {fileID: 136549658475318730}
   - component: {fileID: 23641126004509466}
   - component: {fileID: 114614360979432402}
   - component: {fileID: 114035841039072602}
@@ -519,7 +518,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4460003048502902}
   - component: {fileID: 33180092107129716}
-  - component: {fileID: 136095224350170428}
   - component: {fileID: 114798184394030376}
   - component: {fileID: 23555700973694724}
   - component: {fileID: 114463044895377736}
@@ -557,7 +555,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4146709185469272}
-  - component: {fileID: 136310501742652928}
   - component: {fileID: 23031877420365660}
   - component: {fileID: 114727446829280994}
   - component: {fileID: 114439099457921404}
@@ -722,7 +719,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4386881842448098}
   - component: {fileID: 33716443271149818}
-  - component: {fileID: 136456540998800384}
   - component: {fileID: 114893047754477236}
   - component: {fileID: 23338924613209610}
   - component: {fileID: 114553097296899498}
@@ -8651,8 +8647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13b8f03f5cd548c0b0046bce4eaff93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 114821203502277232}
-  bomb: {fileID: 114104270353045096}
+  Audio: {fileID: 114821203502277232}
   keyboard:
   - {fileID: 114055152561981986}
   - {fileID: 114113856587871452}
@@ -9972,58 +9967,6 @@ MonoBehaviour:
   AllowSelectionWrapY: 0
   ForceSelectionHighlight: 0
   ForceInteractionHighlight: 0
---- !u!136 &136095224350170428
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1257960790486116}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.4
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &136310501742652928
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1296336586518018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &136456540998800384
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1378761098472932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.4
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &136549658475318730
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1255511945500484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212343914422781056
 SpriteRenderer:
   m_ObjectHideFlags: 1
